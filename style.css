@@ -1,0 +1,96 @@
+.para {
+    text-align: center;
+    border: 1.5px solid black;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    font-style: normal;
+    padding: 10px 50px 10px 50px;
+    margin: 50px 100px 50px 100px;
+    transition: 0.5s;
+}
+
+.para:hover {
+
+    transform: rotate(1deg);
+    border: 2.5px dashed black;
+    border-left: 25px solid red;
+    border-right: 25px solid red;
+    font-size: x-large;
+    padding: 15px 70px 15px 70px;
+    margin: 55px 110px 55px 110px;
+
+}
+
+#p2 {
+    text-align: center;
+    font-size: larger;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+#bbttnn {
+    padding: 5px 17px 5px 17px;
+    color: rgb(232, 232, 232);
+    background-color: crimson;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.9s;
+    font-size: x-large;
+}
+
+#bbttnn:hover {
+    padding: 5px 17px 5px 17px;
+    color: rgb(232, 232, 232);
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.descrip {
+    text-align: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 0 310px 0 310px;
+    transition: .9s;
+    filter: blur(5px);
+    /* filter: grayscale(0.8); */
+
+
+}
+
+.img1:hover {
+    height: 350px;
+    border: 2px solid red;
+    padding: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1px 315px 1px 315px;
+    filter: blur(0px);
+
+
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.center-divs {
+    display: flex;
+    justify-content: center;
+}
+
+.prec {
+    color: rgb(246, 27, 71);
+}
